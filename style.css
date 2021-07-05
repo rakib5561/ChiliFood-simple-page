@@ -313,3 +313,70 @@ body{
     text-align: center;
     padding-bottom: 15px;
 }
+
+/* Service Section Start */
+
+#ServicesSection{
+
+    width: 100%;
+    padding: 80px 0px;
+    overflow: hidden;
+
+}
+
+#ServicesSection h1{
+
+    font-size: 38px;
+    font-weight: 700;
+    color: rgb(61, 60, 60);
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#ServicesSection span{
+
+    color: #ff3b1d;
+}
+
+.AllServiceBox{
+
+    width: 100%;
+}
+
+.SingleServiceBox{
+
+    width: 30%;
+    float: left;
+    padding: 0px 20px;
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+.SingleServiceBox i{
+
+
+    font-size: 68px;
+    color: tomato;
+    margin-bottom: 50px;
+    
+}
+
+.SingleServiceBox h3{
+
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.SingleServiceBox P{
+
+    color: rgb(61, 59, 59);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 25px;
+    
+}
+
+/*  */
