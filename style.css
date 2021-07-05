@@ -28,6 +28,7 @@ body{
 
     display: block;
     margin-top: 5px;
+    
 }
 
 .logo{
@@ -39,7 +40,7 @@ body{
 
 .logo img{
 
-    width: 100;
+    width: 100%;
     height: 100px;
 }
 
@@ -80,4 +81,67 @@ body{
     color: #ff3b1d;
     letter-spacing: 1px;
     transition: 0.2s all linear;
+}
+
+/* Start Home Part */
+
+#homePart{
+
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    
+}
+
+
+.homeLeftPart{
+
+    width: 40%;
+    float: left;
+    margin-top: 240px;
+    
+}
+
+.homeLeftPart h1{
+
+    color: rgb(73, 72, 72);
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.homeLeftPart span{
+
+    color: #ff3b1d;
+}
+
+
+.homeLeftPart p{
+
+    color: rgb(104, 101, 101);
+    font-size: 17px;
+    margin-top: 30px;
+    letter-spacing: 1;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.order_button{
+
+    width: 165px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 35px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: linear-gradient(to right,orange,tomato);
+}
+
+.homeRightPart{
+
+    width: 50%;
+    float: right;
 }
