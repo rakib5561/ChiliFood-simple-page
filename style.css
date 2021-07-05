@@ -268,3 +268,48 @@ body{
     letter-spacing: 1;
 
 }
+
+/* Start Social Section */
+#SocialSection{
+
+    overflow: hidden;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.AllSocial{
+
+    width: 100;
+    overflow: hidden;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.SingleSocail{
+
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    
+
+}
+
+.SingleSocail h3{
+
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.SingleSocail p{
+
+    color: rgb(99, 95, 95);
+    font-size: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 15px;
+}
