@@ -15,13 +15,7 @@ body{
     max-width: 1280px;
     margin: 0 auto;
     padding: 0px 20px;
-}
-
-
-#HeaderSection{
-
-    overflow: hidden;
-
+   
 }
 
 .TopMenu{
@@ -126,13 +120,10 @@ body{
     margin-bottom: 20px;
 }
 
-.order_button{
+.button_links{
 
     width: 165px;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 15px 35px;
+    padding: 18px 35px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -140,8 +131,64 @@ body{
     background: linear-gradient(to right,orange,tomato);
 }
 
+.button_links a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
 .homeRightPart{
 
     width: 50%;
     float: right;
+}
+
+
+/* About Section Start */
+
+#aboutSection{
+
+    overflow: hidden;
+    background: url(./img/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.aboutLeftPart{
+
+    width: 30%;
+    float: left;
+    margin-right: 20%;
+}
+.aboutLeftPart img{
+    
+    width: 100%;
+    padding-top: 30px;
+}
+
+.aboutRightpart{
+    
+    width: 50%;
+    float: right;
+    padding-top: 200px;
+}
+.aboutRightpart h2{
+
+    font-size: 38px;
+    color: rgb(61, 60, 60);
+    padding-bottom: 45px;
+    font-weight: 700;
+}
+
+.aboutRightpart p{
+
+    font-size: 17px;
+    padding-bottom: 60px;
+    line-height: 25px;
+    letter-spacing: 1px;
+
 }
